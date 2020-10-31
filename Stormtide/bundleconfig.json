@@ -9,7 +9,7 @@
   {
     "outputFileName": "wwwroot/js/jquery.js",
     "inputFiles": [
-      "Scripts/jquery-1.10.2.js"
+      "Scripts/jquery-3.3.1.js"
     ]
   },
   {
