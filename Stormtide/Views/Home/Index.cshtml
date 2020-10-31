@@ -1,15 +1,37 @@
-﻿<div class="row">
-    <div class="col-md-4">
-        <h2>Space Alert Resolver</h2>
-        <p>
-            A web-based automated resolver for the Resolution Phase of the board game <a href="https://boardgamegeek.com/boardgame/38453/space-alert">Space Alert</a> by Vladda Chvatil.
-        </p>
-        <p><a class="btn btn-default" href="http://stormtide.net/SpaceAlertResolver/">Go to Resolver</a></p>
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stormtide.net</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                @Html.ActionLink("Stormtide.net", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Avery 16282 Labels</h2>
-        <p>This site contains generators for PDF files to print onto <a href="https://www.avery.com/products/tabs/16282">https://www.avery.com/products/tabs/16282</a>.</p>
-        <p>They can be attached to plastic dividers or envelopes for various games to provide organization.</p>
-        <p><a class="btn btn-default" href="http://stormtide.net/Avery16282Generators/">Go to Labels</a></p>
+    <div class="container body-content">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Space Alert Resolver</h2>
+                <p>
+                    A web-based automated resolver for the Resolution Phase of the board game <a href="https://boardgamegeek.com/boardgame/38453/space-alert">Space Alert</a> by Vladda Chvatil.
+                </p>
+                <p><a class="btn btn-default" href="/SpaceAlertResolver/">Go to Resolver</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Avery 16282 Labels</h2>
+                <p>This site contains generators for PDF files to print onto <a href="https://www.avery.com/products/tabs/16282">https://www.avery.com/products/tabs/16282</a>.</p>
+                <p>They can be attached to plastic dividers or envelopes for various games to provide organization.</p>
+                <p><a class="btn btn-default" href="/Avery16282Generators/">Go to Labels</a></p>
+            </div>
+        </div>
     </div>
-</div>
+    <script src="~/js/jquery.js"></script>
+    <script src="~/js/bootstrap.js"></script>
+</body>
+</html>

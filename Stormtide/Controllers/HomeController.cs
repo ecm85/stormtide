@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace Stormtide.Controllers
 {
@@ -11,6 +7,18 @@ namespace Stormtide.Controllers
         public ActionResult Index()
         {
             return View();
+        }
+
+        [Route("SpaceAlertResolver")]
+        public ActionResult SpaceAlertResolver()
+        {
+            return Redirect("https://space-alert-resolver.stormtide.net");
+        }
+
+        [Route("Avery16282Generators")]
+        public ActionResult Avery16282Generators()
+        {
+            return Redirect("https://avery-16282-generators.stormtide.net");
         }
     }
 }

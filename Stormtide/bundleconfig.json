@@ -1,0 +1,27 @@
+﻿[
+  {
+    "outputFileName": "wwwroot/css/site.css",
+    "inputFiles": [
+      "Content/bootstrap.css",
+      "Content/site.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/jquery.js",
+    "inputFiles": [
+      "Scripts/jquery-1.10.2.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/jqueryval.js",
+    "inputFiles": [
+      "Scripts/jquery.validate*"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/bootstrap.js",
+    "inputFiles": [
+      "Scripts/bootstrap.js"
+    ]
+  }
+]
