@@ -11,16 +11,16 @@ namespace Stormtide.Controllers
 
         [Route("SpaceAlertResolver")]
         [Route("SpaceAlertResolver/{*catchall}")]
-        public ActionResult SpaceAlertResolver()
+        public ActionResult SpaceAlertResolver(string catchall)
         {
-            return Redirect("https://space-alert-resolver.stormtide.net");
+            return Redirect($"https://space-alert-resolver.stormtide.net/{catchall}");
         }
 
         [Route("Avery16282Generators")]
         [Route("Avery16282Generators/{*catchall}")]
-        public ActionResult Avery16282Generators()
+        public ActionResult Avery16282Generators(string catchall)
         {
-            return Redirect("https://avery-16282-generators.stormtide.net");
+            return Redirect($"https://avery-16282-generators.stormtide.net/{catchall}");
         }
     }
 }
